@@ -43,7 +43,7 @@ FROM pre-test AS test
 RUN apt-get update && apt-get install -y procps
 
 FROM pre-test as prod
-# Mint proxy listening address
+# Faucet proxy listening address
 EXPOSE 8000
 
 ARG BUILD_DATE

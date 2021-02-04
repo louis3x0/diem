@@ -51,3 +51,6 @@ target-out-docker
 
 # Doc generation output
 *.md.old
+
+# Generated files from running docker containers
+docker/compose/validator-testnet/waypoint.txt
